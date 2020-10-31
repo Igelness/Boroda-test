@@ -66,6 +66,10 @@
   position: absolute;
   bottom: 0;
   margin-bottom: 40px;
+  padding-right: 25px;
+  &:hover {
+    cursor: pointer;
+  }
   a {
     color: #212353;
   }
