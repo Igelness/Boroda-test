@@ -51,16 +51,6 @@ gulp.task("js", function() {
       .pipe(browserSync.reload({ stream: true }));
 });
 
-gulp.task("css", function() {
-  return gulp
-      .src([
-        "node_modules/normalize.css/normalize.css"
-      ])
-      .pipe(concat("_libs.scss"))
-      .pipe(gulp.dest("app/scss"))
-      .pipe(browserSync.reload({ stream: true }));
-});
-
 gulp.task("browser-sync", function() {
   browserSync.init({
     server: {
@@ -91,5 +81,5 @@ gulp.task("build", gulp.series("export", "clean"));
 
 gulp.task(
     "default",
-    gulp.parallel("css", "scss", "js", "browser-sync", "watch")
+    gulp.parallel("scss", "js", "browser-sync", "watch")
 );

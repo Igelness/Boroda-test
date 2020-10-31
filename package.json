@@ -18,7 +18,6 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.5.1",
-    "normalize.css": "^8.0.1",
     "undertaker": "^1.2.1"
   },
   "dependencies": {}
