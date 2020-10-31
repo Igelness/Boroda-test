@@ -18,6 +18,10 @@ body {
 a {
   text-decoration: none;
   display: inline-block;
+  &:focus {
+    outline: none;
+    border: none;
+  }
 }
 
 ul,
