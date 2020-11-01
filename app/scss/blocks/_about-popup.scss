@@ -10,7 +10,7 @@
   position: fixed;
   top: 0;
   opacity: 0;
-  z-index: 11;
+  z-index: 30;
   visibility: hidden;
   transition: 0.5s;
 }
@@ -28,7 +28,7 @@
   left: 0;
   right: 0;
   cursor: pointer;
-  z-index: 12;
+  z-index: 31;
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;

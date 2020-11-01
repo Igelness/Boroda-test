@@ -1,5 +1,5 @@
 .features {
-  margin-top: 135px;
+  margin-top: 120px;
 }
 
 .features__title {
@@ -20,10 +20,10 @@
 }
 
 .features__slider {
-  width: 1200px;
+  max-width: 1200px;
   height: 600px;
   background-color: #FFC84D;
-  margin: 50px auto 0;
+  margin-top: 50px;
   border-radius: 40px;
 }
 
@@ -33,13 +33,14 @@
   margin-top: 100px;
   position: relative;
   transition: 0.3s;
+  margin-left: 160px;
 }
 
 .slick-slide {
-  width: 390px !important;
+  margin-top: 100px;
+  transform: translateX(155px);
   min-height: 358px !important;
-  margin-right: 106px;
-  margin-left: 106px;
+  width: 390px !important;
 }
 
 .slick-list {
@@ -72,7 +73,7 @@
   font-size: 16px;
   position: absolute;
   bottom: 0;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
   padding-right: 25px;
   &:hover {
     cursor: pointer;

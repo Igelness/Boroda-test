@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 90px;
+  margin-top: 150px;
   background-color: #9C69E2;
 }
 
@@ -10,9 +10,14 @@
   min-height: 197px;
 }
 
+.footer__inner-left {
+  display: flex;
+}
+
 .footer__menu-list {
   display: flex;
   margin-left: 135px;
+  margin-top: 10px;
   li {
     margin-left: 55px;
     a {
@@ -29,7 +34,7 @@
 
 .footer__input {
   min-height: 48px;
-  min-width: 419px;
+  width: 419px;
   padding-left: 15px;
   padding-right: 15px;
   border: none;
